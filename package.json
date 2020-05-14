@@ -3,16 +3,38 @@
 	"version": "1.0.0",
 	"description": "",
 	"main": "index.js",
-	"scripts": {
-		"start": "node index.js",
-		"test": "echo \"Error: no test specified\" && exit 1"
-	},
-	"author": "",
-	"license": "ISC",
 	"dependencies": {
-		"express": "^4.17.1"
+		"cookie-session": "^1.4.0",
+		"express": "^4.17.1",
+		"mongoose": "^5.9.14",
+		"passport": "^0.4.1",
+		"passport-google-oauth20": "^2.0.0"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.3"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"dev": "nodemon index.js",
+		"start": "node index.js"
 	},
 	"engines": {
 		"node": "12.x"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/prp20/fullstacklearn.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/prp20/fullstacklearn/issues"
+	},
+<<<<<<< HEAD
+	"homepage": "https://github.com/prp20/fullstacklearn#readme"
+=======
+	"engines": {
+		"node": "12.x"
 	}
+>>>>>>> d1f69899ae970bd8c7c9aba2274812b766f6285e
 }
