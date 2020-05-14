@@ -29,12 +29,5 @@
 	"license": "ISC",
 	"bugs": {
 		"url": "https://github.com/prp20/fullstacklearn/issues"
-	},
-<<<<<<< HEAD
-	"homepage": "https://github.com/prp20/fullstacklearn#readme"
-=======
-	"engines": {
-		"node": "12.x"
 	}
->>>>>>> d1f69899ae970bd8c7c9aba2274812b766f6285e
 }
